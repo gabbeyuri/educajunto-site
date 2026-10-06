@@ -1,0 +1,52 @@
+body {margin: 0;
+      background-color: lightgray;
+      color: darkslategray;
+      font-family: Arial, sans-serif;}
+header {background-color: darkblue;
+        color: white;
+        text-align: center;
+        padding: 30px;}
+header h1 {margin: 0;
+           font-size: 28px;}
+header p {margin: 5px;
+          font-size: 17px;}
+.menu {background-color: darkslateblue;
+       text-align: center;
+       padding: 15px;}
+.menu a {color: white;
+         text-decoration: none;
+         margin: 10px;
+         font-size: 16px;}
+.menu a:hover {color: orange;
+               text-decoration: underline;}
+.bloco {background-color: white;
+        width: 90%;
+        margin: 25px auto;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px slategray;}
+.bloco h2 {color: darkslateblue;
+           text-align: center;
+           text-transform: uppercase;
+           letter-spacing: 1px;}
+.bloco h3 {color: slategray;}
+.bloco p {text-align: justify;
+          text-indent: 20px;}
+.conteudo {display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: space-around;}
+.cartao {background-color: whitesmoke;
+         width: 40%;
+         margin: 15px;
+         padding: 20px;
+         border: 1px solid slategray;
+         border-radius: 8px;}
+.cartao ul {line-height: 1.8;}
+.bloco ul {line-height: 1.8;}
+footer {background-color: darkblue;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;}
+footer p {margin: 5px;}

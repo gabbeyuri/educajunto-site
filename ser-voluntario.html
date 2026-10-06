@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaJunto | Ser voluntário</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <strong>EducaJunto</strong>
+      </a>
+      <nav>
+        <a href="index.html">Início</a>
+        |
+        <a href="professores.html">Professores</a>
+        |
+        <a href="disciplinas.html">Disciplinas</a>
+        |
+        <a href="solicitar-reforco.html">Solicitar reforço</a>
+        |
+        <a href="ser-voluntario.html">Ser voluntário</a>
+        |
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </header>
+    <main>
+      <header>
+        <h1>Quero ser professor voluntário</h1>
+        <p>Compartilhe seu conhecimento e ajude estudantes a avançar.</p>
+      </header>
+      <section>
+        <h2>Como funciona o voluntariado?</h2>
+        <ol>
+          <li>Faça seu cadastro.</li>
+          <li>Informe as disciplinas que pode ensinar.</li>
+          <li>Escolha seus dias e horários.</li>
+          <li>Encontre alunos que precisam de apoio.</li>
+          <li>Compartilhe seu conhecimento.</li>
+        </ol>
+      </section>
+      <form action="#aviso" method="get">
+        <fieldset>
+          <legend>Dados pessoais e formação</legend>
+          <label for="nome">Nome completo</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            required
+          >
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+          >
+          <label for="formacao">Formação</label>
+          <input
+            type="text"
+            id="formacao"
+            name="formacao"
+            required
+          >
+          <label for="area">Área de conhecimento</label>
+          <input
+            type="text"
+            id="area"
+            name="area"
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Atuação voluntária</legend>
+          <label for="disciplinas">Disciplinas que pode ensinar</label>
+          <input
+            type="text"
+            id="disciplinas"
+            name="disciplinas"
+            required
+          >
+          <label for="nivel">Nível de ensino</label>
+          <select id="nivel" name="nivel">
+            <option>Ensino fundamental I</option>
+            <option>Ensino fundamental II</option>
+            <option>Ensino médio</option>
+            <option>Vestibular ou ENEM</option>
+          </select>
+          <label for="experiencia">Experiência</label>
+          <textarea
+            id="experiencia"
+            name="experiencia"
+            rows="4"
+          >
+          </textarea>
+          <label for="apresentacao">Breve apresentação</label>
+          <textarea
+            id="apresentacao"
+            name="apresentacao"
+            rows="4"
+          >
+          </textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Disponibilidade</legend>
+          <label for="dias">Dias disponíveis</label>
+          <input
+            type="text"
+            id="dias"
+            name="dias"
+            placeholder="Exemplo: segunda e quarta"
+          >
+          <label for="horarios">Horários disponíveis</label>
+          <input
+            type="text"
+            id="horarios"
+            name="horarios"
+            placeholder="Exemplo: das 18h às 20h"
+          >
+          <p>Modalidade:</p>
+          <label>
+            <input
+              type="radio"
+              name="modalidade"
+              value="online"
+              required
+            >
+            Online
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="modalidade"
+              value="presencial"
+            >
+            Presencial
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="modalidade"
+              value="ambas"
+            >
+            Ambas
+          </label>
+        </fieldset>
+        <button type="submit">Enviar cadastro</button>
+        <button type="reset">Limpar</button>
+      </form>
+      <p id="aviso">Cadastro demonstrativo. Nenhuma informação será armazenada.</p>
+    </main>
+    <footer>
+      <p>
+        <a href="index.html">EducaJunto</a>
+        — juntos pela educação.
+      </p>
+    </footer>
+  </body>
+</html>
