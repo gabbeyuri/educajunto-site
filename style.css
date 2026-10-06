@@ -106,7 +106,14 @@ article img {
   width: 100%;
   height: 230px;
   object-fit: cover;
-  object-position: top;
+}
+
+#voluntarios > div {
+  flex-wrap: nowrap;
+}
+
+#voluntarios > div > article {
+  flex: 1 1 0;
 }
 
 #inicio {
@@ -305,5 +312,9 @@ body > footer a {
   th,
   td {
     padding: 7px;
+  }
+
+  #voluntarios > div {
+    flex-wrap: wrap;
   }
 }
